@@ -1,0 +1,490 @@
+/* ======================
+   1. Layout Global
+====================== */
+.main-page {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+#adoption-page {
+  width: 100%;
+  padding: 0 15px;
+}
+
+#adoption-banner {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+/* ======================
+   2. Tipografia e Textos
+====================== */
+h1 {
+  color: #169e4b;
+  text-align: center;
+  font-weight: 700;
+}
+
+.text-green {
+  color: #169e4b;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.manifestacoes-title {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.manifestacoes-subtitle {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.highlight-name {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.highlight-name-female {
+  color: #e83e8c;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* ======================
+   3. Containers e Cards
+====================== */
+.card-container,
+.card-content {
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  background-color: #fff;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card-content:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.card-banner {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-title {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+.manifestacoes-card {
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.manifestacoes-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ======================
+   4. Botões e Tabs
+====================== */
+.button-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  text-align: center;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.button-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.button-card i {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hover-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.hover-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* ======================
+   5. Tabs
+====================== */
+.tabs-group a {
+  color: #A1E3AF;
+}
+
+.nav-tabs .nav-link.active {
+  color: #2F9D47;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tab-content {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.tab-content i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ======================
+   6. Imagens
+====================== */
+img{
+  border-radius: 20px !important;
+}
+
+.img-content {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ======================
+   7. Componentes de Adoção
+====================== */
+#adoption-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.adoption-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.adoption-info {
+  flex: 1;
+}
+
+.adoption-name,
+.adoption-sex,
+.adoption-age,
+.adoption-castrated,
+.adoption-breed {
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  background-color: #ffffff;
+  margin: 5px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.adoption-action {
+  position: relative;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.adoption-action .text-muted {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  position: absolute;
+}
+
+.adoption-action .hover-button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  position: absolute;
+}
+
+.card-content:hover .adoption-action .text-muted {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+
+.card-content:hover .adoption-action .hover-button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ======================
+   8. Tabelas e Colunas
+====================== */
+.table td {
+  padding: 6px !important;
+}
+
+.col {
+  margin: 10px !important;
+}
+
+/* ======================
+   9. Utilitários
+====================== */
+.bg-gray {
+  background-color: #f8f9fa;
+}
+
+.bg-orange {
+  background-color: #fd7e14 !important;
+}
+
+.sex-box {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  min-width: 100px;
+}
+
+.sex-box.male {
+  background-color: #007bff;
+}
+
+.sex-box.female {
+  background-color: #e83e8c;
+}
+
+/* ======================
+   10. Responsividade
+====================== */
+@media (min-width: 425px) {
+  .sm-none {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  #adoption-title {
+    font-size: 2rem;
+  }
+
+  .adoption-row {
+    flex-wrap: wrap;
+  }
+
+  .card-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-card {
+    margin: 0.5rem 0;
+  }
+
+  .nav-tabs {
+    flex-direction: column;
+  }
+
+  .nav-tabs .nav-item {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .card-title {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+
+  .manifestacoes-icon {
+    font-size: 28px;
+  }
+
+  .card-content {
+    max-width: 500px;
+  }
+
+  .adoption-action .text-muted {
+    display: none !important;
+  }
+
+  .adoption-action .hover-button {
+    opacity: 1 !important;
+    position: static !important;
+    transform: none !important;
+    transition: none !important;
+    display: inline-block;
+  }
+
+  .card-content:hover .adoption-action .hover-button {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-page {
+    padding: 0 10px;
+  }
+
+  .card-container,
+  .card-content {
+    padding: 0.75rem;
+    margin: 0.75rem 0;
+  }
+
+  .button-card i {
+    font-size: 1.5rem;
+  }
+
+  .tab-content i {
+    font-size: 1.25rem;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 528px) {
+  .card-content .d-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem;
+    width: 100%;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-width: 250px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .adoption-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adoption-info .d-flex.mb-2 {
+    flex-direction: row !important;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .adoption-info .d-flex.mb-2 > .info {
+    width: 50%;
+    text-align: center;
+  }
+
+  .adoption-breed {
+    width: 100%;
+    margin: 0.5rem 0 !important;
+    text-align: center;
+  }
+
+  .adoption-action {
+    width: 100%;
+    margin-top: 0.5rem;
+    align-items: center;
+  }
+}
