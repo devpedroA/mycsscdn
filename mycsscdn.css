@@ -16,9 +16,27 @@
   padding: 20px 0;
 }
 
+#adoption-page {
+  width: 100%;
+  padding: 0 15px;
+}
+
+#adoption-banner {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
 /* ======================
    2. Tipografia e Textos
 ====================== */
+h1 {
+  color: #169e4b;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  line-height: normal;
+}
 
 .text-green {
   color: #169e4b;
@@ -26,6 +44,28 @@
 
 .text-black {
   color: #000 !important;
+}
+
+.manifestacoes-title {
+  font-weight: bold;
+  color: #343a40;
+}
+
+.manifestacoes-subtitle {
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.highlight-name {
+  color: #007bff;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.highlight-name-female {
+  color: #e83e8c;
+  font-weight: bold;
+  font-size: 1.1em;
 }
 
 /* ======================
@@ -47,190 +87,324 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-/* ======================
-   4. Game Card Styles
-====================== */
-.game-teams {
+.card-banner {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  gap: 0.5rem;
 }
 
-.game-team {
-  text-align: center;
-  flex: 1;
-  padding: 0 0.2rem;
-}
-
-.game-score {
-  text-align: center;
-  flex: 0 0 auto;
-  padding: 0 0.5rem;
-}
-
-.score-display {
+.card-title {
   display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 20px;
+  font-size: 28px;
+}
+
+.manifestacoes-card {
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.manifestacoes-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ======================
+   4. Botões e Tabs
+====================== */
+.button-card {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.3rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.score-display span {
-  font-size: 1.5rem;
-}
-
-.score-display span:not(:nth-child(2)) {
-  min-width: 1.5rem;
-  text-align: center;
-}
-
-.game-card {
-  background: #fff;
   border: 1px solid #dee2e6;
   border-radius: 0.75rem;
-  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin: 0.5rem;
+  background-color: #ffffff;
+  text-align: center;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  height: 100%;
-  margin-bottom: 1rem;
-  padding: 0.75rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
-.game-card.game-past {
-  background: #f8f9fa;
-  border: 1px solid #e9ecef;
-}
-
-.game-card.game-past .score-display {
-  color: #169e4b;
-}
-
-.game-card:hover {
+.button-card:hover {
   transform: translateY(-3px);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
-.game-info {
-  font-size: 0.85rem;
-  color: #666;
+.button-card i {
+  font-size: 2rem;
   margin-bottom: 0.5rem;
-  text-align: center;
 }
 
-.game-info .datetime {
-  font-size: 0.95rem;
-  color: #333;
-  font-weight: 600;
+.button-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.game-team img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  margin-bottom: 0.2rem;
-  border-radius: 8px !important;
+.hover-button {
+  display: inline-block;
+  padding: 0.5rem 1.5rem;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
 }
 
-.game-team .team-name {
-  font-size: 0.95rem;
-  font-weight: 500;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  line-height: 1.2;
+.hover-button:hover {
+  background-color: #0056b3;
+  color: white;
 }
 
 /* ======================
-   5. Table Styles
+   5. Tabs
 ====================== */
-.table th {
-  background-color: #f8f9fa;
-  border-bottom: 2px solid #dee2e6;
-  font-weight: 600;
-  color: #495057;
+.tabs-group a {
+  color: #A1E3AF;
 }
 
-.table th.toggle-info {
-  cursor: help;
+.nav-tabs .nav-link.active {
+  color: #2F9D47;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.tab-content {
+  padding: 1rem;
+  border: 1px solid #dee2e6;
+  border-top: none;
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.tab-content i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ======================
+   6. Imagens
+====================== */
+img {
+  border-radius: 20px !important;
+}
+
+.img-content {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.image-wrapper {
+  display: flex;
+  align-items: stretch;
+  height: 100%;
+}
+
+.image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* ======================
+   7. Componentes de Adoção
+====================== */
+#adoption-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.adoption-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.adoption-info {
+  flex: 1;
+}
+
+.adoption-name,
+.adoption-sex,
+.adoption-age,
+.adoption-castrated,
+.adoption-breed {
+  border: 1px solid #dee2e6;
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  background-color: #ffffff;
+  margin: 5px;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.adoption-action {
   position: relative;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.table th.toggle-info:hover {
-  background-color: #e9ecef;
+.adoption-action .text-muted {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  position: absolute;
 }
 
-.table .position {
-  font-weight: 600;
-  color: #495057;
-  width: 50px;
+.adoption-action .hover-button {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  position: absolute;
 }
 
-.table .relegation-row td {
-  color: #dc3545;
+.card-content:hover .adoption-action .text-muted {
+  opacity: 0;
+  transform: translateY(-20px);
 }
 
-.table .relegation-row .position {
-  color: #dc3545;
+.card-content:hover .adoption-action .hover-button {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 /* ======================
-   6. Responsividade
+   8. Tabelas e Colunas
 ====================== */
-@media (max-width: 768px) {
+.table td {
+  padding: 6px !important;
+}
 
-  .card-container,
+.col {
+  margin: 10px !important;
+}
+
+/* ======================
+   9. Utilitários
+====================== */
+.bg-gray {
+  background-color: #f8f9fa;
+}
+
+.bg-orange {
+  background-color: #fd7e14 !important;
+}
+
+.sex-box {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  min-width: 100px;
+}
+
+.sex-box.male {
+  background-color: #007bff;
+}
+
+.sex-box.female {
+  background-color: #e83e8c;
+}
+
+/* ======================
+   10. Responsividade
+====================== */
+@media (min-width: 425px) {
+  .sm-none {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
   .card-content {
-    padding: 0.75rem;
-    margin: 0.75rem 0;
+    width: 60%;
+  }
+}
+
+@media (max-width: 992px) {
+  #adoption-title {
+    font-size: 2rem;
   }
 
-  .game-teams {
-    gap: 0.5rem;
+  .adoption-row {
+    flex-wrap: wrap;
   }
 
-  .game-team {
-    flex: 1;
+  .card-content {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
   }
 
-  .game-score {
-    flex: 0 0 auto;
-    padding: 0 0.5rem;
+  .image-wrapper img {
+    width: 100%;
+    height: 180px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-card {
+    margin: 0.5rem 0;
   }
 
-  .game-card {
-    margin-bottom: 0.75rem;
-    padding: 0.75rem;
+  .nav-tabs {
+    flex-direction: column;
   }
 
-  .game-info .datetime {
-    font-size: 0.9rem;
+  .nav-tabs .nav-item {
+    width: 100%;
+    margin-bottom: 0.5rem;
   }
 
-  .game-team img {
-    width: 30px;
-    height: 30px;
+  .card-title {
+    font-size: 24px;
+    margin-left: 10px;
   }
 
-  .game-team .team-name {
-    font-size: 0.8rem;
+  .manifestacoes-icon {
+    font-size: 28px;
   }
 
-  .score-display {
-    font-size: 1.1rem;
+  .card-content {
+    max-width: 500px;
   }
 
-  .score-display span {
-    font-size: 1.1rem;
+  .adoption-action .text-muted {
+    display: none !important;
   }
 
-  .table th {
-    font-size: 0.8rem !important;
+  .adoption-action .hover-button {
+    opacity: 1 !important;
+    position: static !important;
+    transform: none !important;
+    transition: none !important;
+    display: inline-block;
   }
 
-  .table .position {
-    width: 30px;
+  .card-content:hover .adoption-action .hover-button {
+    opacity: 1 !important;
+    transform: none !important;
   }
 }
 
@@ -245,20 +419,74 @@
     margin: 0.75rem 0;
   }
 
-  .game-team img {
-    width: 25px;
-    height: 25px;
+  .button-card i {
+    font-size: 1.5rem;
   }
 
-  .game-team .team-name {
-    font-size: 0.75rem;
+  .tab-content i {
+    font-size: 1.25rem;
   }
 
-  .score-display {
-    font-size: 1rem;
+  .card-title {
+    font-size: 20px;
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 528px) {
+  .card-content .d-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem;
+    width: 100%;
   }
 
-  .score-display span {
-    font-size: 1rem;
+  .image-wrapper {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    max-width: 250px;
+  }
+
+  .image-wrapper img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .adoption-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adoption-info .d-flex.mb-2 {
+    flex-direction: row !important;
+    width: 100%;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem !important;
+  }
+
+  .adoption-info .d-flex.mb-2 > .info {
+    width: 50%;
+    text-align: center;
+  }
+
+  .adoption-breed {
+    width: 100%;
+    margin: 0.5rem 0 !important;
+    text-align: center;
+  }
+
+  .adoption-action {
+    width: 100%;
+    margin-top: 0.5rem;
+    align-items: center;
   }
 }
