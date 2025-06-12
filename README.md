@@ -8,13 +8,23 @@ npm init -y
 
 # Instalar dependências principais
 ```bash
-npm install fastify zod @fastify/swagger @fastify/swagger-ui
+npm install fastify zod @fastify/swagger @fastify/swagger-ui @prisma/client dotenv
 ```
 
 # Instalar dependências de desenvolvimento
 ```bash
-npm install -D typescript @types/node tsx
+npm install typescript @types/node tsx prisma -D
 ```
+
+# Conexão com o Docker
+```bash
+-> docker run --name biblioteca-api-solid-mysql  -e MARIADB_ROOT_PASSWORD=docker -e MARIADB_DATABASE=biblioteca-api -e MARIADB_USER=docker -e MARIADB_PASSWORD=docker -p 3306:3306 -d bitnami/mariadb:latest
+```
+# Depois eu conecto nessa url
+```bash
+->mysql://docker:docker@biblioteca-api-solid-mysql:3306/biblioteca-api
+```
+
 # package.json
 ```bash
 {
