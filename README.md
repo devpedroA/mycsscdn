@@ -147,6 +147,36 @@ const start = async () => {
 start()
 ```
 
+# Fetch from next
+```bash
+// pages/users.tsx
+export async function getServerSideProps() {
+  const res = await fetch('https://api.exemplo.com/users')
+  const data = await res.json()
+
+  return {
+    props: {
+      users: data,
+    },
+  }
+}
+
+export default function UsersPage({ users }: { users: any[] }) {
+  return (
+    <div>
+      {users.map((user) => (
+        <p key={user.id}>{user.name}</p>
+      ))}
+    </div>
+  )
+}
+```
+
+# Sequencia a ser seguida SOLID
+```bash
+Use-case -> Test (vitest) -> factory (error) -> repository(repository interface/ memory from test and prisma) -> controllers -> DTO
+```
+
 # Gerar o cliente Prisma
 ```bash
 npx prisma generate
