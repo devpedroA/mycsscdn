@@ -1,0 +1,296 @@
+{
+  "ouro": {
+    "times": [
+      {
+        "nome": "Terra Boa",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/xv5rl5mqyb3.png"
+      },
+      {
+        "nome": "Tchuruu",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/pbs0x43k55i.png"
+      },
+      {
+        "nome": "Penãrol",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/d4ywnb5tple.png"
+      },
+      {
+        "nome": "Sport Campina",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/sivw0qvmfcx.png"
+      },
+      {
+        "nome": "Araçatuba",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/mbajeipkctc.png"
+      },
+      {
+        "nome": "Juventus",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/tuimrltomm3.png"
+      },
+      {
+        "nome": "Fox",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/2jxp33oxurv.png"
+      },
+      {
+        "nome": "Engenho",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/n3vsizyeyml.png"
+      },
+      {
+        "nome": "Esperafico",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/3a0tfiwywc0.png"
+      },
+      {
+        "nome": "C.A.D.B",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/uqqrfgb01ov.png"
+      },
+      {
+        "nome": "Parceria",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/hivofdyqhn1.png"
+      },
+      {
+        "nome": "Braguense",
+        "pontos": 0,
+        "vitorias": 0,
+        "empates": 0,
+        "derrotas": 0,
+        "golsPro": 0,
+        "golsContra": 0,
+        "saldo": 0,
+        "cartoesAmarelos": 0,
+        "cartoesVermelhos": 0,
+        "imagem": "https://www.campinagrandedosul.pr.gov.br/Downloads/Imagens/2019/1/d5jv4jdtypp.png"
+      }
+    ],
+    "rodadas": [
+      {
+        "data": "01/06/2025",
+        "rodada": 1,
+        "jogos": [
+          {
+            "timeA": "Terra Boa",
+            "timeB": "Braguense",
+            "placarA": 3,
+            "placarB": 0,
+            "estadio": "Sede",
+            "hora": "08:30",
+            "cartoesAmarelosA": 3,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 4,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Tchuruu",
+            "timeB": "Parceria",
+            "placarA": 0,
+            "placarB": 1,
+            "estadio": "Sede",
+            "hora": "10:30",
+            "cartoesAmarelosA": 3,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 5,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Penãrol",
+            "timeB": "Sport Campina",
+            "placarA": 4,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "08:30",
+            "cartoesAmarelosA": 2,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 3,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Araçatuba",
+            "timeB": "Juventus",
+            "placarA": 1,
+            "placarB": 2,
+            "estadio": "Jardim Paulista",
+            "hora": "10:30",
+            "cartoesAmarelosA": 6,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 7,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Fox",
+            "timeB": "Engenho",
+            "placarA": 2,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "08:30",
+            "cartoesAmarelosA": 3,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 3,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Esperafico",
+            "timeB": "C.A.D.B",
+            "placarA": 2,
+            "placarB": 2,
+            "estadio": "Santa Rosa",
+            "hora": "10:30",
+            "cartoesAmarelosA": 2,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 2,
+            "cartoesVermelhosB": 0
+          }
+        ]
+      },
+      {
+        "data": "08/06/2025",
+        "rodada": 2,
+        "jogos": [
+          {
+            "timeA": "Araçatuba",
+            "timeB": "C.A.D.B",
+            "placarA": 0,
+            "placarB": 1,
+            "estadio": "Sede",
+            "hora": "08:30"
+          },
+          {
+            "timeA": "Juventus",
+            "timeB": "Sport Campina",
+            "placarA": 3,
+            "placarB": 2,
+            "estadio": "Sede",
+            "hora": "10:30"
+          },
+          {
+            "timeA": "Braguense",
+            "timeB": "Tchuruu",
+            "placarA": 1,
+            "placarB": 3,
+            "estadio": "Santa Rosa",
+            "hora": "08:30"
+          },
+          {
+            "timeA": "Penãrol",
+            "timeB": "Esperafico",
+            "placarA": 2,
+            "placarB": 4,
+            "estadio": "Santa Rosa",
+            "hora": "10:30"
+          },
+          {
+            "timeA": "Fox",
+            "timeB": "Parceria",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "08:30"
+          },
+          {
+            "timeA": "Engenho",
+            "timeB": "Terra Boa",
+            "placarA": 2,
+            "placarB": 1,
+            "estadio": "Jardim Paulista",
+            "hora": "10:30"
+          }
+        ]
+      }
+    ]
+  }
+}
