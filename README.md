@@ -189,3 +189,28 @@ npx prisma migrate dev
 ```bash
 npx prisma studio
 ```
+
+# Swagger
+```bash
+app.post('/users', {
+    schema: {
+      description: 'Cadastro de Usuario',
+      tags: ['User'],
+      response: {
+        200: {
+          description: 'Cadsatro de Usuario',
+          type: 'array',
+          items: {
+            type: 'object',
+            properties: {
+              id: { type: 'string' },
+              nome: { type: 'string' },
+              email: { type: 'string' },
+              password: { type: 'string' },
+            },
+          },
+        },
+      },
+    },
+  }, registerUser)
+```
