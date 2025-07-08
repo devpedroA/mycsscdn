@@ -178,31 +178,31 @@
         ]
       },
       {
-        "data": "22/06/2099",
+        "data": "06/07/2099",
         "rodada": 4,
         "jogos": [
           {
-            "timeA": "Parceria", "timeB": "Araçatuba", "placarA": 0, "placarB": 0, "estadio": "", "hora": "08:30",
+            "timeA": "Parceria", "timeB": "Araçatuba", "placarA": 2, "placarB": 2, "estadio": "", "hora": "08:30",
             "cartoesAmarelosA": 0, "cartoesVermelhosA": 0, "cartoesAmarelosB": 0, "cartoesVermelhosB": 0
           },
           {
-            "timeA": "Sport Campina", "timeB": "Terra Boa", "placarA": 0, "placarB": 0, "estadio": "Santa Rosa", "hora": "08:30",
+            "timeA": "Sport Campina", "timeB": "Terra Boa", "placarA": 2, "placarB": 6, "estadio": "Santa Rosa", "hora": "08:30",
             "cartoesAmarelosA": 0, "cartoesVermelhosA": 0, "cartoesAmarelosB": 0, "cartoesVermelhosB": 0
           },
           {
-            "timeA": "Juventus", "timeB": "Engenho", "placarA": 0, "placarB": 0, "estadio": "Jardim Paulista", "hora": "08:30",
+            "timeA": "Juventus", "timeB": "Engenho", "placarA": 1, "placarB": 2, "estadio": "Jardim Paulista", "hora": "08:30",
             "cartoesAmarelosA": 0, "cartoesVermelhosA": 0, "cartoesAmarelosB": 0, "cartoesVermelhosB": 0
           },
           {
-            "timeA": "Tchuruu", "timeB": "Penãrol", "placarA": 0, "placarB": 0, "estadio": "Sede", "hora": "10:30",
+            "timeA": "Tchuruu", "timeB": "Penãrol", "placarA": 2, "placarB": 3, "estadio": "Sede", "hora": "10:30",
             "cartoesAmarelosA": 0, "cartoesVermelhosA": 0, "cartoesAmarelosB": 0, "cartoesVermelhosB": 0
           },
           {
-            "timeA": "Fox", "timeB": "Esperafico", "placarA": 0, "placarB": 0, "estadio": "Santa Rosa", "hora": "10:30",
+            "timeA": "Fox", "timeB": "Esperafico", "placarA": 1, "placarB": 0, "estadio": "Santa Rosa", "hora": "10:30",
             "cartoesAmarelosA": 0, "cartoesVermelhosA": 0, "cartoesAmarelosB": 0, "cartoesVermelhosB": 0
           },
           {
-            "timeA": "Braguense", "timeB": "C.A.D.B", "placarA": 0, "placarB": 0, "estadio": "Jardim Paulista", "hora": "10:30",
+            "timeA": "Braguense", "timeB": "C.A.D.B", "placarA": 1, "placarB": 1, "estadio": "Jardim Paulista", "hora": "10:30",
             "cartoesAmarelosA": 0, "cartoesVermelhosA": 0, "cartoesAmarelosB": 0, "cartoesVermelhosB": 0
           }
         ]
