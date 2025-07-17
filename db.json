@@ -548,6 +548,84 @@
             "cartoesVermelhosB": 0
           }
         ]
+      },
+      {
+        "data": "20/07/2099",
+        "rodada": 6,
+        "jogos": [
+          {
+            "timeA": "Parceria",
+            "timeB": "Esperafico",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Sede",
+            "hora": "08:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Engenho",
+            "timeB": "Araçatuba",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "08:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Juventus",
+            "timeB": "Terra Boa",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "08:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Fox",
+            "timeB": "Terra Boa",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Sede",
+            "hora": "10:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Sport Campina",
+            "timeB": "Braguense",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "10:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "C.A.D.B",
+            "timeB": "Tchuruu",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "10:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          }
+        ]
       }
     ]
   },
@@ -937,6 +1015,84 @@
             "placarA": 2,
             "placarB": 6,
             "estadio": "Santa Rosa",
+            "hora": "15:00",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          }
+        ]
+      },
+      {
+        "data": "20/07/2099",
+        "rodada": 3,
+        "jogos": [
+          {
+            "timeA": "Marfran Esporte Clube",
+            "timeB": "Estrela Campina",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "13:00",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Deportivo Campina Fc",
+            "timeB": "Arsenal F.C",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "13:00",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Redbull Campina",
+            "timeB": "Hookah Futebol Clube",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Sede",
+            "hora": "13:00",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Entre Parents F.C",
+            "timeB": "Los Coyudos F.C",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "15:00",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Campinense Futebol Clube",
+            "timeB": "America Campinense F.C",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "15:00",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Eucaliptus F.C",
+            "timeB": "Santa Rosa",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Sede",
             "hora": "15:00",
             "cartoesAmarelosA": 0,
             "cartoesVermelhosA": 0,
