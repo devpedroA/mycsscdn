@@ -550,13 +550,13 @@
         ]
       },
       {
-        "data": "20/07/2099",
+        "data": "20/07/2025",
         "rodada": 6,
         "jogos": [
           {
             "timeA": "Parceria",
             "timeB": "Esperafico",
-            "placarA": 0,
+            "placarA": 7,
             "placarB": 0,
             "estadio": "Sede",
             "hora": "08:30",
@@ -568,8 +568,8 @@
           {
             "timeA": "Engenho",
             "timeB": "Araçatuba",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 2,
+            "placarB": 2,
             "estadio": "Santa Rosa",
             "hora": "08:30",
             "cartoesAmarelosA": 0,
@@ -579,9 +579,9 @@
           },
           {
             "timeA": "Juventus",
-            "timeB": "Terra Boa",
+            "timeB": "Penãrol",
             "placarA": 0,
-            "placarB": 0,
+            "placarB": 2,
             "estadio": "Jardim Paulista",
             "hora": "08:30",
             "cartoesAmarelosA": 0,
@@ -592,8 +592,8 @@
           {
             "timeA": "Fox",
             "timeB": "Terra Boa",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 3,
+            "placarB": 2,
             "estadio": "Sede",
             "hora": "10:30",
             "cartoesAmarelosA": 0,
@@ -604,8 +604,8 @@
           {
             "timeA": "Sport Campina",
             "timeB": "Braguense",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 2,
+            "placarB": 3,
             "estadio": "Santa Rosa",
             "hora": "10:30",
             "cartoesAmarelosA": 0,
@@ -616,8 +616,8 @@
           {
             "timeA": "C.A.D.B",
             "timeB": "Tchuruu",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 1,
+            "placarB": 2,
             "estadio": "Jardim Paulista",
             "hora": "10:30",
             "cartoesAmarelosA": 0,
