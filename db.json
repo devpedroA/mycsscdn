@@ -626,6 +626,84 @@
             "cartoesVermelhosB": 0
           }
         ]
+      },
+      {
+        "data": "27/07/2099",
+        "rodada": 7,
+        "jogos": [
+          {
+            "timeA": "Esperafico",
+            "timeB": "Tchuruu",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Sede",
+            "hora": "08:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Araçatuba",
+            "timeB": "Sport Campina",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "08:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Juventus",
+            "timeB": "Parceria",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "08:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "C.A.D.B",
+            "timeB": "Terra Boa",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Sede",
+            "hora": "10:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Engenho",
+            "timeB": "Braguense",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Santa Rosa",
+            "hora": "10:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          },
+          {
+            "timeA": "Fox",
+            "timeB": "Penãrol",
+            "placarA": 0,
+            "placarB": 0,
+            "estadio": "Jardim Paulista",
+            "hora": "10:30",
+            "cartoesAmarelosA": 0,
+            "cartoesVermelhosA": 0,
+            "cartoesAmarelosB": 0,
+            "cartoesVermelhosB": 0
+          }
+        ]
       }
     ]
   },
@@ -1024,7 +1102,7 @@
         ]
       },
       {
-        "data": "20/07/2099",
+        "data": "20/07/2025",
         "rodada": 3,
         "jogos": [
           {
