@@ -1108,8 +1108,8 @@
           {
             "timeA": "Marfran Esporte Clube",
             "timeB": "Estrela Campina",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 2,
+            "placarB": 1,
             "estadio": "Jardim Paulista",
             "hora": "13:00",
             "cartoesAmarelosA": 0,
@@ -1120,7 +1120,7 @@
           {
             "timeA": "Deportivo Campina Fc",
             "timeB": "Arsenal F.C",
-            "placarA": 0,
+            "placarA": 3,
             "placarB": 0,
             "estadio": "Santa Rosa",
             "hora": "13:00",
@@ -1132,7 +1132,7 @@
           {
             "timeA": "Redbull Campina",
             "timeB": "Hookah Futebol Clube",
-            "placarA": 0,
+            "placarA": 1,
             "placarB": 0,
             "estadio": "Sede",
             "hora": "13:00",
@@ -1144,8 +1144,8 @@
           {
             "timeA": "Entre Parents F.C",
             "timeB": "Los Coyudos F.C",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 1,
+            "placarB": 1,
             "estadio": "Jardim Paulista",
             "hora": "15:00",
             "cartoesAmarelosA": 0,
@@ -1156,8 +1156,8 @@
           {
             "timeA": "Campinense Futebol Clube",
             "timeB": "America Campinense F.C",
-            "placarA": 0,
-            "placarB": 0,
+            "placarA": 4,
+            "placarB": 1,
             "estadio": "Santa Rosa",
             "hora": "15:00",
             "cartoesAmarelosA": 0,
@@ -1168,7 +1168,7 @@
           {
             "timeA": "Eucaliptus F.C",
             "timeB": "Santa Rosa",
-            "placarA": 0,
+            "placarA": 2,
             "placarB": 0,
             "estadio": "Sede",
             "hora": "15:00",
