@@ -1210,7 +1210,7 @@
           {
             "timeA": "America Campinense F.C",
             "timeB": "Entre Parents F.C",
-            "placarA": 1,
+            "placarA": 0,
             "placarB": 0,
             "estadio": "Sede",
             "hora": "13:00",
@@ -1234,8 +1234,8 @@
           {
             "timeA": "Los Coyudos F.C",
             "timeB": "Vila Sapo F.C",
-            "placarA": 4,
-            "placarB": 1,
+            "placarA": 0,
+            "placarB": 0,
             "estadio": "Santa Rosa",
             "hora": "15:00",
             "cartoesAmarelosA": 0,
@@ -1246,7 +1246,7 @@
           {
             "timeA": "Santa Rosa",
             "timeB": "Arsenal F.C",
-            "placarA": 2,
+            "placarA": 0,
             "placarB": 0,
             "estadio": "Sede",
             "hora": "15:00",
